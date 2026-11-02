@@ -12,7 +12,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UrlEmployeeReader {
+public class UrlEmployeeReader implements EmployeeReader {
     private final URL url;
     public UrlEmployeeReader(URL url) {
         this.url = url;

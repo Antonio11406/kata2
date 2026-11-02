@@ -5,7 +5,7 @@ import software.ulpgc.katas.model.Gender;
 import java.io.*; import java.util.List;
 import java.util.Objects;
 
-public class FileEmployeeReader implements {
+public class FileEmployeeReader implements EmployeeReader{
     private final File file;
     public FileEmployeeReader(File file) {
         this.file = file;
