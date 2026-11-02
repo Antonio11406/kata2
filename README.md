@@ -4,28 +4,6 @@ Objetivo de la entrega
 
 El objetivo de esta práctica es construir un programa capaz de leer un conjunto de datos desde múltiples orígenes a través de la abstracción InputStream (ficheros locales y URLs), transformar esos datos en entidades de dominio (Employee) y volcar los resultados en múltiples destinos a través de un OutputStream (consola y nuevos ficheros). Todo ello garantizando una clara separación de responsabilidades y un control de errores robusto (sin fallos opacos ni retornos nulos destructivos).
 
-Cómo compilar y ejecutar
-
-El proyecto ha sido desarrollado como una aplicación Java estándar.
-
-Desde la terminal (si usas Maven):
-
-Clona el repositorio y navega a la carpeta raíz: cd kata2
-
-Compila el proyecto: mvn clean install
-
-Ejecuta el programa principal: mvn exec:java -Dexec.mainClass="software.ulpgc.katas.Main"
-
-Desde IntelliJ IDEA:
-
-Abre el proyecto en el IDE.
-
-Asegúrate de que el archivo employees.tsv se encuentre en la raíz del proyecto.
-
-Navega hasta src/main/java/software/ulpgc/katas/Main.java.
-
-Pulsa el botón de Run (triángulo verde) junto a la clase Main.
-
 Dependencias y versión de JDK
 
 JDK: Java 25 (OpenJDK 25)
